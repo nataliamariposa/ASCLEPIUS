@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e65312aa3395a41cf86afd0b78b210db, type: 3}
+  m_Name: DialogueNode 13
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  speakers:
+  - Priest
+  - Priest
+  - Priest
+  dialogueLines:
+  - 'You have come to the right place.
+
+'
+  - 'Asclepius likes to visit in dreams.
+
+'
+  - "Go on in, give him an offering and pray, and he will surely listen. \n"
+  choices: []

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e65312aa3395a41cf86afd0b78b210db, type: 3}
+  m_Name: DialogueNode 5
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  speakers:
+  - Priest
+  - Priest
+  dialogueLines:
+  - I have heard about your family.
+  - I knew you were coming soon.
+  choices:
+  - choiceText: What do you know about my family?
+    relationshipChange: 0
+    nextNode: {fileID: 11400000, guid: 1559296e9520948a88deb6ea0bd4d305, type: 2}
+    targetNPC: 2
+    characterName: Priest
+    factToReveal: The grave-keeper knows where my family comes from. . . and what
+      they've done.
+    factOwner: 0
+    requiredFact: 
+  - choiceText: Did Asclepius tell you that?
+    relationshipChange: 0
+    nextNode: {fileID: 11400000, guid: f6ca5a3a3dd7148a29137aa844ec3c9b, type: 2}
+    targetNPC: 2
+    characterName: Priest
+    factToReveal: 
+    factOwner: 0
+    requiredFact: 

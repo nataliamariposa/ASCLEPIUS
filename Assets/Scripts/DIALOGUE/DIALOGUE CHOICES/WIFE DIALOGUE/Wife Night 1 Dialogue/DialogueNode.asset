@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e65312aa3395a41cf86afd0b78b210db, type: 3}
+  m_Name: DialogueNode
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  speakers:
+  - Wife
+  dialogueLines:
+  - . . .
+  choices:
+  - choiceText: Hold her hand.
+    relationshipChange: 5
+    nextNode: {fileID: 11400000, guid: 199251e1cf48b445a90d9eef439a794f, type: 2}
+    targetNPC: 1
+    characterName: Wife
+    factToReveal: 
+  - choiceText: Do nothing.
+    relationshipChange: -5
+    nextNode: {fileID: 11400000, guid: 9433f33c20e5f46dca81c259cd8b890b, type: 2}
+    targetNPC: 1
+    characterName: Wife
+    factToReveal: 

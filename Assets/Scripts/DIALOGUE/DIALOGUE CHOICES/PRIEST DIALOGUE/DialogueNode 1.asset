@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e65312aa3395a41cf86afd0b78b210db, type: 3}
+  m_Name: DialogueNode 1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  speakers:
+  - Priest
+  dialogueLines:
+  - 'I cannot. But my lord can if he feels its fit.
+
+'
+  choices:
+  - choiceText: Your lord?
+    relationshipChange: 0
+    nextNode: {fileID: 11400000, guid: fd33765fcf9ce4610ac41e93a9c10cc4, type: 2}
+    targetNPC: 2
+    characterName: Priest
+    factToReveal: 
+    factOwner: 0
+    requiredFact: 

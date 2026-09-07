@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e65312aa3395a41cf86afd0b78b210db, type: 3}
+  m_Name: Doctor_2
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  speakers:
+  - Doctor
+  dialogueLines:
+  - "Worse. I have tried every remedy I can think of, but she\u2019s not responding
+    to any of them.\n"
+  choices:
+  - choiceText: "That can\u2019t be possible! What am I paying you for if you can\u2019t
+      save my wife? "
+    relationshipChange: -5
+    nextNode: {fileID: 11400000, guid: 8e201cee6934040d08bc30b71d84fe16, type: 2}
+    characterName: Doctor
+  - choiceText: There must be something I can do.
+    relationshipChange: 3
+    nextNode: {fileID: 11400000, guid: 06be8baab8e474434a492e0df8672204, type: 2}
+    characterName: Doctor

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e65312aa3395a41cf86afd0b78b210db, type: 3}
+  m_Name: DialogueNode 3
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  speakers:
+  - Priest
+  dialogueLines:
+  - 'Do you have an offering for my lord?
+
+'
+  choices:
+  - choiceText: Yes.
+    relationshipChange: 0
+    nextNode: {fileID: 11400000, guid: c4e0bfd8c10ae48878308dd4765b71b5, type: 2}
+    targetNPC: 2
+    characterName: Priest
+    factToReveal: 
+    factOwner: 0
+    requiredFact: 

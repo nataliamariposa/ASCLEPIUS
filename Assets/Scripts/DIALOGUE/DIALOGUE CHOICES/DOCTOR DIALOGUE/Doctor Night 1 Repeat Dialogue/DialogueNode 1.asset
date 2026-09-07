@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e65312aa3395a41cf86afd0b78b210db, type: 3}
+  m_Name: DialogueNode 1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  speakers:
+  - Doctor
+  - Doctor
+  - Doctor
+  dialogueLines:
+  - "It\u2019s unlike anything I\u2019ve ever seen before. \n"
+  - "It\u2019s almost like nothing\u2019s wrong with her, but there\u2019s something
+    stopping her from getting better.\n"
+  - "Perhaps she\u2019s cursed. \n"
+  choices:
+  - choiceText: Go back.
+    relationshipChange: 0
+    nextNode: {fileID: 11400000, guid: 0ed00f3abbeba4d85af83962f2baa4cf, type: 2}
+    targetNPC: 0
+    characterName: Doctor
+    factToReveal: Suggested my wife is cursed.

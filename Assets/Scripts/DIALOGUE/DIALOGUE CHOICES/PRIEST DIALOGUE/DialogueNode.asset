@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e65312aa3395a41cf86afd0b78b210db, type: 3}
+  m_Name: DialogueNode
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  speakers:
+  - Priest
+  - Priest
+  dialogueLines:
+  - I know who you are.
+  - 'You are the husband, are you not? Of the woman taken ill?
+
+'
+  choices:
+  - choiceText: Can you help my wife?
+    relationshipChange: 0
+    nextNode: {fileID: 11400000, guid: 25b2a05574f7849368f0d3c5d65bf082, type: 2}
+    targetNPC: 2
+    characterName: Priest
+    factToReveal: 
+    factOwner: 0
+    requiredFact: 
+  - choiceText: How did you know that?
+    relationshipChange: 0
+    nextNode: {fileID: 11400000, guid: 129b6e3567b4049bea16e64509072a84, type: 2}
+    targetNPC: 2
+    characterName: Priest
+    factToReveal: 
+    factOwner: 0
+    requiredFact: 

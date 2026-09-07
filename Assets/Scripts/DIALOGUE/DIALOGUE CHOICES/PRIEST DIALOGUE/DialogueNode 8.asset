@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e65312aa3395a41cf86afd0b78b210db, type: 3}
+  m_Name: DialogueNode 8
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  speakers:
+  - Priest
+  dialogueLines:
+  - 'I know many things young man, all of which have been given to me by our lord.
+
+'
+  choices:
+  - choiceText: That seems a bit strange
+    relationshipChange: 0
+    nextNode: {fileID: 11400000, guid: 3b54a4da96294488b9048c6651093977, type: 2}
+    targetNPC: 2
+    characterName: Priest
+    factToReveal: 
+    factOwner: 0
+    requiredFact: 
